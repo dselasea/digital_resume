@@ -10,13 +10,14 @@
 <body>
     <div id="container--main">
         <section id="wrapper--hero" class="section--page">
-            <img src="./assets/images/dansel.jpg" alt="Picture of Daniel" />
+            <img id="profile_pic" src="./assets/images/dansel.jpg" alt="Picture of Daniel" />
             <div>
-                <p id="bio">FontEnd web developer passionate about building websites. I have the skill of transforming Mock Ups and UI’s into pixel perfect code. I love take up new challenges</p>
-                <p>👉dselasea@gmail.com</p>
+                <h1 id="username">Daniel Selase Anyidoho</h1>
+                <p id="bio">Frontend Web Developer passionate about building websites. I have the skill of transforming Mock Ups and UI’s into pixel perfect code. I love take up new challenges</p>
+                <p>👉 dselasea@gmail.com</p>
             </div>
         </section>
-        <section id="section--page">
+        <section class="section--page">
             <div id="socials--list">
                 <a href="" target="_blank">Twitter</a>
                 <a href="" target="_blank">LinkedIn</a>
@@ -26,11 +27,36 @@
         </section>
         <section class="section--page">
             <h2>Skills and Qualifications</h2>
-            <ul>
+            <ul id="qualifications--list">
                 <li>✔ 2 Years experience with frontend web development</li>
                 <li>✔ Experience in using WordPress to build websites</li>
                 <li>✔ Converting Mock ups and UI's into HTML and CSS code</li>
             </ul>
+        </section>
+
+        <section class="section--page">
+            <h2>Tech stack</h2>
+        
+            <div id="wrapper--techstack__items">
+                <div class="card--techstack"><span>HTML, CSS, JavaScript</span></div>
+                <div class="card--techstack"><span>Bootstrap, Tailwind, React</span></div>
+            </div>
+        </section>
+
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Work History</h2>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>🚧 WEB DEVELOPER | ITRUS</strong>
+                <p>2015 - 2016</p>
+                <p>I worked on building websites for clients using WordPress. I also spent sometime building email newsletters for the company.</p>
+            </div>
+
+            <div class="card--work-history">
+                <strong>🚧 FRONTEND WEB DEVELOPER </strong>
+                <p>PRESENT</p>
+                <p>I spend time building and coding UI challenging on FrontendMentor.io. I am also actively learning and exploring how to use React.</p>
+            </div>
         </section>
     </div>
 </body>
